@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Geonym</title>
+    <meta charset="utf-8" />
+
+    <script language="javascript" src="app.js"></script>
+
+    <script language="javascript" src="spaces/burrito.js"></script>
+    <script language="javascript" src="spaces/zen.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="Geonym.express();" onresize="Geonym.arrange();">
+    <header id="header">
+      <a href="#">geonym</a>
+    </header>
+    <div    id="tagline">spaces</div>
+    <h1     id="title"></h1>
+    <canvas id="canvas" width="700" height="700"></canvas>
+    <div    id="summary"></div>
+    <code   id="structure"></code>
+    <nav    id="nav">
+      <ul   id="spaces">
+        <li><span>names</span></li>
+      </ul>
+    </nav>
+  </body>
+</head>
