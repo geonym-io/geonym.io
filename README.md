@@ -1,7 +1,5 @@
 # Geonym
 
-## Overview
-
 Geonym is a computational geometry playground.
 
 Check it out: http://geonym.io/
